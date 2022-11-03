@@ -1,0 +1,94 @@
+.geesenumberdiv{
+    position: fixed;
+    bottom: 30px;
+    z-index: 40;
+}
+
+.geesenumber {
+  background-attachment: scroll;
+  background-color: initial;
+    background-image: linear-gradient(-180deg, #5177df, #09bbb5);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color:#FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+    height: 44px;
+    line-height: 44px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 500px;
+    z-index: 9;
+    border: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.background {
+  background-color: forestgreen;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  color:#FFFFFF;
+  text-align: center;
+  font-size:x-large;
+  font-weight: 200;
+}
+
+
+
+.locationsbox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  background-image: url("./images/cn3.png");
+}
+
+.location {
+    margin-top: 5px;
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #00D775, #00BD68);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+    height: 44px;
+    line-height: 44px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 500px;
+    z-index: 9;
+    border: 0;
+  }
+  
+  .location:hover {
+    background: #00bd68;
+    width:510px;
+  }     
