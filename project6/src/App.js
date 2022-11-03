@@ -1,8 +1,8 @@
-import "../src/App.css";
+import "./App.css";
 import { useState, useEffect, refreshPage } from "react";
 import axios from "axios";
-import imageLogo from "../src/images/cn2.png";
-import imageLogo2 from "../src/images/cn3.png";
+import imageLogo from "./images/cn2.png";
+import imageLogo2 from "./images/cn3.png";
 import reportWebVitals from "./reportWebVitals";
 
 
